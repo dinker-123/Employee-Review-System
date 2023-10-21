@@ -1,0 +1,50 @@
+.main-container{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+  
+    height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.user-card{
+    background: rgb(106, 136, 233);
+}
+.card-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(248, 248, 248);
+    text-decoration: underline rgb(246, 246, 249);
+}
+
+.user-email,.user-role{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    border: 2px solid rgb(243, 13, 51);
+}
+
+.btn:hover{
+    background: rgb(243, 13, 51);
+    border: 2px solid rgb(247, 123, 146);
+    transition: 0.5s;
+    color: pink;
+}
+
